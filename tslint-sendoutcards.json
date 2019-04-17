@@ -1,6 +1,21 @@
 {
+  "extends": ["tslint:recommended", "tslint-immutable"],
   "rulesDirectory": "./rules",
   "rules": {
-    "no-native-set": true
+    "no-native-set": true,
+    "no-var-keyword": true,
+    "no-parameter-reassignment": true,
+    "typedef": false, // "typedef": [true, "parameter", "property-declaration","call-signature"]
+    // Immutability rules
+    "no-array-mutation": [
+      true,
+      "ignore-mutation-following-accessor",
+      { "ignore-prefix": ["mutable"] }
+    ],
+    "no-let": true,
+    "no-object-mutation": [
+      true,
+      { "ignore-prefix": ["mutable", "this", "document", "window"] }
+    ]
   }
 }
