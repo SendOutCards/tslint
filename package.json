@@ -1,0 +1,34 @@
+{
+  "name": "@sendoutcards/tslint",
+  "version": "0.1.0",
+  "description": "SendOutCards TSLint Rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SendOutCards/tslint.git"
+  },
+  "keywords": [
+    "tslint"
+  ],
+  "author": "Jared M. Peterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SendOutCards/tslint/issues"
+  },
+  "homepage": "https://github.com/SendOutCards/tslint#readme",
+  "dependencies": {
+    "tsutils": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.4",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.3"
+  },
+  "peerDependencies": {
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.0"
+  }
+}
