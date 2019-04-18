@@ -36,11 +36,13 @@
     "README.md"
   ],
   "dependencies": {
+    "tslint-config-prettier": "^1.18.0",
     "tslint-immutable": "^5.5.2",
+    "tslint-react": "^4.0.0",
     "tsutils": "^3.10.0"
   },
   "devDependencies": {
-    "@types/node": "^11.13.4",
+    "@types/node": "^11.13.5",
     "codecov": "^3.3.0",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
@@ -52,6 +54,7 @@
     "typescript": "^3.4.3"
   },
   "peerDependencies": {
+    "prettier": "^1.17.0",
     "tslint": "^5.16.0",
     "typescript": "^3.4.0"
   },
