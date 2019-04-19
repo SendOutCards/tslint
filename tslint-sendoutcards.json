@@ -60,7 +60,12 @@
     "object-literal-shorthand": false,
     "one-variable-per-declaration": [false],
     "only-arrow-functions": [true, "allow-declarations"],
-    "ordered-imports": [false],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "any"
+      }
+    ],
     "prefer-const": true,
     "prefer-for-of": true,
     "prefer-method-signature": false,
