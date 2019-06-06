@@ -1,6 +1,6 @@
 {
   "name": "@sendoutcards/tslint",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "SendOutCards TSLint Rules",
   "main": "tslint-sendoutcards.json",
   "scripts": {
