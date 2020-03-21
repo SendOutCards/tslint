@@ -8,9 +8,7 @@
   "rulesDirectory": "./rules",
   "rules": {
     "no-native-set": true,
-    // tslint-react
     "jsx-no-lambda": false,
-    // Immutability rules
     "no-array-mutation": [
       true,
       "ignore-mutation-following-accessor",
@@ -21,18 +19,17 @@
       true,
       { "ignore-prefix": ["mutable", "this", "document", "window"] }
     ],
-    // TSlint rules
     "no-var-keyword": true,
     "no-parameter-reassignment": true,
-    "typedef": false, // "typedef": [true, "parameter", "property-declaration","call-signature"]
+    "typedef": false,
     "array-type": false,
     "arrow-parens": false,
     "arrow-return-shorthand": [false],
-    "ban-types": false, // to change
+    "ban-types": false,
     "class-name": true,
     "comment-format": [true, "check-space"],
     "cyclomatic-complexity": true,
-    "forin": false, // to change
+    "forin": false,
     "import-blacklist": [true, "lodash", "material-ui"],
     "interface-over-type-literal": false,
     "interface-name": false,
@@ -41,21 +38,21 @@
     "member-ordering": [true, { "order": "fields-first" }],
     "newline-before-return": false,
     "no-any": false,
-    "no-console": false, // to change
+    "no-console": false,
     "no-duplicate-imports": [true, { "allow-namespace-imports": true }],
-    "no-empty": false, // to remove
+    "no-empty": false,
     "no-empty-interface": false,
     "no-import-side-effect": true,
     "no-inferrable-types": [true, "ignore-params", "ignore-properties"],
     "no-invalid-this": [true, "check-function-in-method"],
-    "no-namespace": false, // to change
+    "no-namespace": false,
     "no-non-null-assertion": true,
     "no-null-keyword": false,
     "no-require-imports": false,
     "no-shadowed-variable": false,
-    "no-submodule-imports": false, // [true, "@src", "rxjs", "soc-components"] fix this
+    "no-submodule-imports": false,
     "no-this-assignment": [true, { "allow-destructuring": true }],
-    "no-unused-expression": false, // to change
+    "no-unused-expression": false,
     "object-literal-sort-keys": false,
     "object-literal-shorthand": false,
     "one-variable-per-declaration": [false],
@@ -70,8 +67,8 @@
     "prefer-for-of": true,
     "prefer-method-signature": false,
     "prefer-template": [true, "allow-single-concat"],
-    "triple-equals": false, // "triple-equals": [true, "allow-null-check"],
-    "type-literal-delimiter": false, // true
+    "triple-equals": false,
+    "type-literal-delimiter": false,
     "unnecessary-bind": true,
     "variable-name": [
       false,
@@ -79,7 +76,7 @@
       "check-format",
       "allow-pascal-case",
       "allow-leading-underscore"
-    ], //true
+    ],
     "no-restricted-globals": [
       true,
       "open",
