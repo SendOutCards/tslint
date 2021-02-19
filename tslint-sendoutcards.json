@@ -28,7 +28,6 @@
     "ban-types": false,
     "class-name": true,
     "comment-format": [true, "check-space"],
-    "cyclomatic-complexity": true,
     "forin": false,
     "import-blacklist": [true, "lodash", "material-ui"],
     "interface-over-type-literal": false,
